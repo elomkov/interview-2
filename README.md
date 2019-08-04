@@ -22,3 +22,29 @@ snakeToCamel('') // ""
 snakeToCamel('hello') // "Hello"
 snakeToCamel('is_42_the_answer') // "is42TheAnswer
 ```
+
+### Задачка про наследование
+
+Реализовать функцию `extends`, которая будет наследовать один класс от другого.
+
+```javascript
+function extends(child, parent) {
+  /* solution */
+}
+
+extends();
+```
+
+### Кастомный оператор new
+
+На этом месте может быть задачка на создание полифилла для какого-либо метода (например, для `Object.create` или `bind`).
+
+Задача: написать кастомный оператор `new`. Функция должна принимать функцию-конструктор и её аргументы, а возвращать инстанс класса.
+
+```javascript
+function newOperator(constr, args) {
+  /* solution */
+}
+```
+
+[Авторское решение](https://gist.github.com/batogov/74fbf8db6c98bd971526292ce8379610)
